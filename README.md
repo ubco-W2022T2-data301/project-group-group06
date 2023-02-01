@@ -1,4 +1,4 @@
-# Group YY - {Short snappy Title of your project}
+# Group 06 - {Short snappy Title of your project}
 
 - Your title can change over time.
 
