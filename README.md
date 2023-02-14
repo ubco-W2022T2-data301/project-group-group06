@@ -1,4 +1,4 @@
-# Group 06 - {Short snappy Title of your project}
+# Group 06 - The effect of different lifestyle factors on human well-being
 
 - Your title can change over time.
 
