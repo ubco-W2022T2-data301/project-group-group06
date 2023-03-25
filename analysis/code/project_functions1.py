@@ -23,7 +23,3 @@ def load_clean_process(path):
     )
     
     return data2
-
-def group_by(data):
-    
-    return
