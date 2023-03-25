@@ -29,6 +29,10 @@ def load_clean_process(file):
     )
     
     # Process data
-    df3 = df2.reset_index()
+    df3 = (
+        df2
+        .reset_index()
+        .drop(['index'], axis = 'columns')
+    ) 
     
     return df3
