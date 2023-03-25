@@ -1,3 +1,14 @@
+import pandas as pd
+
+# Defining a function to remove the outliers in a column of a dataset
+def drop_outlier(column):
+    Q1 = column.quantile(0.25)
+    Q3 = column.quantile(0.75)
+    IQR = Q3 - Q1
+    lb = Q1-1.5*IQR
+    ub = Q3+1.5*IQR
+    return column[(column > lb) & (column < ub)]
+
 def load_clean_process(file):
     # Method Chain 1 - load and clean data 
     df1 = (
@@ -12,8 +23,8 @@ def load_clean_process(file):
     df2 = (
         df1
         .assign(Daily_stress = lambda x: pd.to_numeric(x['Daily_stress']), 
-            Age = lambda x: x['Age']
-            .cat.rename_categories(['21-35', '36-50', '> 50', '< 20']),
+            Age = lambda x: x['Age'].astype('category')
+                .cat.rename_categories(['21-35', '36-50', '> 50', '< 20']),
             Work_life_balance_score = lambda x: x['Work_life_balance_score'].astype(float).pipe(drop_outlier)) 
     )
     
