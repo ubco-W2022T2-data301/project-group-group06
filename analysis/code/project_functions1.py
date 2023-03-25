@@ -16,7 +16,6 @@ def load_clean_process(path):
     # Method chain 2 - process data
     data2 = (
         data1.assign(DAILY_STRESS = lambda x: pd.to_numeric(x['DAILY_STRESS']), 
-                     AGE = lambda x: x['AGE'].astype('category'),
                      Weighted_Score = lambda x: 7*x['FLOW'] + 7*(10-x['DAILY_SHOUTING']) + x['WEEKLY_MEDITATION']
                     )
         .rename(columns = lambda x: x.upper())
