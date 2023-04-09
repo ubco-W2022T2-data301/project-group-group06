@@ -1,0 +1,1243 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.23.0209.1653                               -->
+<workbook original-version='18.1' source-build='2022.4.1 (20224.23.0209.1653)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='irdina_tableau_data' inline='true' name='federated.0xk3kt71yuq1lx13bawys0l2aljm' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='irdina_tableau_data' name='textscan.1xgmdj30pmr8zh11nj7h71ng2kwm'>
+            <connection class='textscan' directory='C:/Users/Irdina/Downloads/UBC/DATA 301/project-group-group06/data/processed' filename='irdina_tableau_data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1xgmdj30pmr8zh11nj7h71ng2kwm' name='irdina_tableau_data.csv' table='[irdina_tableau_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='Fruits_veggies' ordinal='1' />
+            <column datatype='integer' name='Daily_stress' ordinal='2' />
+            <column datatype='integer' name='Places_visited' ordinal='3' />
+            <column datatype='integer' name='Core_circle' ordinal='4' />
+            <column datatype='integer' name='Supporting_others' ordinal='5' />
+            <column datatype='integer' name='Social_network' ordinal='6' />
+            <column datatype='integer' name='Achievement' ordinal='7' />
+            <column datatype='integer' name='Donation' ordinal='8' />
+            <column datatype='integer' name='Bmi_range' ordinal='9' />
+            <column datatype='integer' name='Todo_completed' ordinal='10' />
+            <column datatype='integer' name='Flow' ordinal='11' />
+            <column datatype='integer' name='Daily_steps' ordinal='12' />
+            <column datatype='integer' name='Live_vision' ordinal='13' />
+            <column datatype='integer' name='Sleep_hours' ordinal='14' />
+            <column datatype='integer' name='Lost_vacation' ordinal='15' />
+            <column datatype='integer' name='Daily_shouting' ordinal='16' />
+            <column datatype='integer' name='Sufficient_income' ordinal='17' />
+            <column datatype='integer' name='Personal_awards' ordinal='18' />
+            <column datatype='integer' name='Time_for_passion' ordinal='19' />
+            <column datatype='integer' name='Weekly_meditation' ordinal='20' />
+            <column datatype='string' name='Age' ordinal='21' />
+            <column datatype='string' name='Gender' ordinal='22' />
+            <column datatype='real' name='Work_life_balance_score' ordinal='23' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1xgmdj30pmr8zh11nj7h71ng2kwm' name='irdina_tableau_data.csv' table='[irdina_tableau_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='Fruits_veggies' ordinal='1' />
+            <column datatype='integer' name='Daily_stress' ordinal='2' />
+            <column datatype='integer' name='Places_visited' ordinal='3' />
+            <column datatype='integer' name='Core_circle' ordinal='4' />
+            <column datatype='integer' name='Supporting_others' ordinal='5' />
+            <column datatype='integer' name='Social_network' ordinal='6' />
+            <column datatype='integer' name='Achievement' ordinal='7' />
+            <column datatype='integer' name='Donation' ordinal='8' />
+            <column datatype='integer' name='Bmi_range' ordinal='9' />
+            <column datatype='integer' name='Todo_completed' ordinal='10' />
+            <column datatype='integer' name='Flow' ordinal='11' />
+            <column datatype='integer' name='Daily_steps' ordinal='12' />
+            <column datatype='integer' name='Live_vision' ordinal='13' />
+            <column datatype='integer' name='Sleep_hours' ordinal='14' />
+            <column datatype='integer' name='Lost_vacation' ordinal='15' />
+            <column datatype='integer' name='Daily_shouting' ordinal='16' />
+            <column datatype='integer' name='Sufficient_income' ordinal='17' />
+            <column datatype='integer' name='Personal_awards' ordinal='18' />
+            <column datatype='integer' name='Time_for_passion' ordinal='19' />
+            <column datatype='integer' name='Weekly_meditation' ordinal='20' />
+            <column datatype='string' name='Age' ordinal='21' />
+            <column datatype='string' name='Gender' ordinal='22' />
+            <column datatype='real' name='Work_life_balance_score' ordinal='23' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[irdina_tableau_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[irdina_tableau_data.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fruits_veggies</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fruits_veggies]</local-name>
+            <parent-name>[irdina_tableau_data.csv]</parent-name>
+            <remote-alias>Fruits_veggies</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Daily_stress</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Daily_stress]</local-name>
+            <parent-name>[irdina_tableau_data.csv]</parent-name>
+            <remote-alias>Daily_stress</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Places_visited</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Places_visited]</local-name>
+            <parent-name>[irdina_tableau_data.csv]</parent-name>
+            <remote-alias>Places_visited</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Core_circle</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Core_circle]</local-name>
+            <parent-name>[irdina_tableau_data.csv]</parent-name>
+            <remote-alias>Core_circle</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Supporting_others</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Supporting_others]</local-name>
+            <parent-name>[irdina_tableau_data.csv]</parent-name>
+            <remote-alias>Supporting_others</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Social_network</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Social_network]</local-name>
+            <parent-name>[irdina_tableau_data.csv]</parent-name>
+            <remote-alias>Social_network</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Achievement</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Achievement]</local-name>
+            <parent-name>[irdina_tableau_data.csv]</parent-name>
+            <remote-alias>Achievement</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Donation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Donation]</local-name>
+            <parent-name>[irdina_tableau_data.csv]</parent-name>
+            <remote-alias>Donation</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bmi_range</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Bmi_range]</local-name>
+            <parent-name>[irdina_tableau_data.csv]</parent-name>
+            <remote-alias>Bmi_range</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Todo_completed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Todo_completed]</local-name>
+            <parent-name>[irdina_tableau_data.csv]</parent-name>
+            <remote-alias>Todo_completed</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Flow</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Flow]</local-name>
+            <parent-name>[irdina_tableau_data.csv]</parent-name>
+            <remote-alias>Flow</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Daily_steps</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Daily_steps]</local-name>
+            <parent-name>[irdina_tableau_data.csv]</parent-name>
+            <remote-alias>Daily_steps</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Live_vision</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Live_vision]</local-name>
+            <parent-name>[irdina_tableau_data.csv]</parent-name>
+            <remote-alias>Live_vision</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sleep_hours</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sleep_hours]</local-name>
+            <parent-name>[irdina_tableau_data.csv]</parent-name>
+            <remote-alias>Sleep_hours</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lost_vacation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Lost_vacation]</local-name>
+            <parent-name>[irdina_tableau_data.csv]</parent-name>
+            <remote-alias>Lost_vacation</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Daily_shouting</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Daily_shouting]</local-name>
+            <parent-name>[irdina_tableau_data.csv]</parent-name>
+            <remote-alias>Daily_shouting</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sufficient_income</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sufficient_income]</local-name>
+            <parent-name>[irdina_tableau_data.csv]</parent-name>
+            <remote-alias>Sufficient_income</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Personal_awards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Personal_awards]</local-name>
+            <parent-name>[irdina_tableau_data.csv]</parent-name>
+            <remote-alias>Personal_awards</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time_for_passion</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Time_for_passion]</local-name>
+            <parent-name>[irdina_tableau_data.csv]</parent-name>
+            <remote-alias>Time_for_passion</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weekly_meditation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Weekly_meditation]</local-name>
+            <parent-name>[irdina_tableau_data.csv]</parent-name>
+            <remote-alias>Weekly_meditation</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[irdina_tableau_data.csv]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[irdina_tableau_data.csv]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Work_life_balance_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Work_life_balance_score]</local-name>
+            <parent-name>[irdina_tableau_data.csv]</parent-name>
+            <remote-alias>Work_life_balance_score</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Bmi range' datatype='integer' name='[Bmi_range]' role='measure' type='quantitative' />
+      <column caption='Core circle' datatype='integer' name='[Core_circle]' role='measure' type='quantitative' />
+      <column caption='Daily shouting' datatype='integer' name='[Daily_shouting]' role='measure' type='quantitative' />
+      <column caption='Daily steps' datatype='integer' name='[Daily_steps]' role='measure' type='quantitative' />
+      <column caption='Daily stress' datatype='integer' name='[Daily_stress]' role='measure' type='quantitative' />
+      <column caption='Fruits veggies' datatype='integer' name='[Fruits_veggies]' role='measure' type='quantitative' />
+      <column caption='Live vision' datatype='integer' name='[Live_vision]' role='measure' type='quantitative' />
+      <column caption='Lost vacation' datatype='integer' name='[Lost_vacation]' role='measure' type='quantitative' />
+      <column caption='Personal awards' datatype='integer' name='[Personal_awards]' role='measure' type='quantitative' />
+      <column caption='Places visited' datatype='integer' name='[Places_visited]' role='measure' type='quantitative' />
+      <column caption='Sleep hours' datatype='integer' name='[Sleep_hours]' role='measure' type='quantitative' />
+      <column caption='Social network' datatype='integer' name='[Social_network]' role='measure' type='quantitative' />
+      <column caption='Sufficient income' datatype='integer' name='[Sufficient_income]' role='measure' type='quantitative' />
+      <column caption='Supporting others' datatype='integer' name='[Supporting_others]' role='measure' type='quantitative' />
+      <column caption='Time for passion' datatype='integer' name='[Time_for_passion]' role='measure' type='quantitative' />
+      <column caption='Todo completed' datatype='integer' name='[Todo_completed]' role='measure' type='quantitative' />
+      <column caption='Weekly meditation' datatype='integer' name='[Weekly_meditation]' role='measure' type='quantitative' />
+      <column caption='Work life balance score' datatype='real' name='[Work_life_balance_score]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='irdina_tableau_data.csv' datatype='table' name='[__tableau_internal_object_id__].[irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='irdina_tableau_data.csv' id='irdina_tableau_data.csv_245C0A8CA43B40C586FE7CB56E18598E'>
+            <properties context=''>
+              <relation connection='textscan.1xgmdj30pmr8zh11nj7h71ng2kwm' name='irdina_tableau_data.csv' table='[irdina_tableau_data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='Fruits_veggies' ordinal='1' />
+                  <column datatype='integer' name='Daily_stress' ordinal='2' />
+                  <column datatype='integer' name='Places_visited' ordinal='3' />
+                  <column datatype='integer' name='Core_circle' ordinal='4' />
+                  <column datatype='integer' name='Supporting_others' ordinal='5' />
+                  <column datatype='integer' name='Social_network' ordinal='6' />
+                  <column datatype='integer' name='Achievement' ordinal='7' />
+                  <column datatype='integer' name='Donation' ordinal='8' />
+                  <column datatype='integer' name='Bmi_range' ordinal='9' />
+                  <column datatype='integer' name='Todo_completed' ordinal='10' />
+                  <column datatype='integer' name='Flow' ordinal='11' />
+                  <column datatype='integer' name='Daily_steps' ordinal='12' />
+                  <column datatype='integer' name='Live_vision' ordinal='13' />
+                  <column datatype='integer' name='Sleep_hours' ordinal='14' />
+                  <column datatype='integer' name='Lost_vacation' ordinal='15' />
+                  <column datatype='integer' name='Daily_shouting' ordinal='16' />
+                  <column datatype='integer' name='Sufficient_income' ordinal='17' />
+                  <column datatype='integer' name='Personal_awards' ordinal='18' />
+                  <column datatype='integer' name='Time_for_passion' ordinal='19' />
+                  <column datatype='integer' name='Weekly_meditation' ordinal='20' />
+                  <column datatype='string' name='Age' ordinal='21' />
+                  <column datatype='string' name='Gender' ordinal='22' />
+                  <column datatype='real' name='Work_life_balance_score' ordinal='23' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontsize='13'>Top Correlated Lifestyle Factors with Work-Life Balance</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='irdina_tableau_data' name='federated.0xk3kt71yuq1lx13bawys0l2aljm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xk3kt71yuq1lx13bawys0l2aljm'>
+            <column datatype='integer' name='[Achievement]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Age]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column caption='Places visited' datatype='integer' name='[Places_visited]' role='measure' type='quantitative' />
+            <column caption='Supporting others' datatype='integer' name='[Supporting_others]' role='measure' type='quantitative' />
+            <column caption='Work life balance score' datatype='real' name='[Work_life_balance_score]' role='measure' type='quantitative' />
+            <column-instance column='[Achievement]' derivation='Avg' name='[avg:Achievement:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Places_visited]' derivation='Avg' name='[avg:Places_visited:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Supporting_others]' derivation='Avg' name='[avg:Supporting_others:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age]' derivation='None' name='[none:Age:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Work_life_balance_score]' derivation='None' name='[none:Work_life_balance_score:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[none:Age:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Age:nk]' />
+              <groupfilter function='member' level='[none:Age:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[none:Gender:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Gender:nk]' />
+              <groupfilter function='member' level='[none:Gender:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0xk3kt71yuq1lx13bawys0l2aljm].[none:Age:nk]</column>
+            <column>[federated.0xk3kt71yuq1lx13bawys0l2aljm].[none:Gender:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#69aaa5' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[avg:Achievement:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.58171272277832031' />
+                <format attr='mark-color' value='#69aaa5' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[avg:Supporting_others:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.58171272277832031' />
+                <format attr='mark-color' value='#69aaa5' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[avg:Places_visited:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.58171272277832031' />
+                <format attr='mark-color' value='#69aaa5' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xk3kt71yuq1lx13bawys0l2aljm].[none:Work_life_balance_score:qk]</rows>
+        <cols>([federated.0xk3kt71yuq1lx13bawys0l2aljm].[avg:Achievement:qk] + ([federated.0xk3kt71yuq1lx13bawys0l2aljm].[avg:Supporting_others:qk] + [federated.0xk3kt71yuq1lx13bawys0l2aljm].[avg:Places_visited:qk]))</cols>
+      </table>
+      <simple-id uuid='{155B19DD-E30A-4556-A4DC-175E4BCB16A1}' />
+    </worksheet>
+    <worksheet name='age'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontsize='13'>Distribution of Work-Life Balance Score by Age Group</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='irdina_tableau_data' name='federated.0xk3kt71yuq1lx13bawys0l2aljm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xk3kt71yuq1lx13bawys0l2aljm'>
+            <column datatype='string' name='[Age]' role='dimension' type='nominal' />
+            <column caption='Work life balance score' datatype='real' name='[Work_life_balance_score]' role='measure' type='quantitative' />
+            <column-instance column='[Age]' derivation='None' name='[none:Age:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Work_life_balance_score]' derivation='Sum' name='[sum:Work_life_balance_score:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[none:Age:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;&lt; 20&quot;</bucket>
+              <bucket>&quot;21-35&quot;</bucket>
+              <bucket>&quot;36-50&quot;</bucket>
+              <bucket>&quot;&gt; 50&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[none:Age:nk]' value='116' />
+          </style-rule>
+          <style-rule element='refboxplot'>
+            <format attr='palette' id='refline0' value='bp_yellow' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <reference-line axis-column='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[sum:Work_life_balance_score:qk]' boxplot-mark-exclusion='true' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[sum:Work_life_balance_score:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.38381215929985046' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xk3kt71yuq1lx13bawys0l2aljm].[sum:Work_life_balance_score:qk]</rows>
+        <cols>[federated.0xk3kt71yuq1lx13bawys0l2aljm].[none:Age:nk]</cols>
+      </table>
+      <simple-id uuid='{2A0BB485-6500-4E89-8FAF-094BAD69D2D2}' />
+    </worksheet>
+    <worksheet name='gender'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontsize='13'>Distribution of Work-Life Balance Scores by Gender</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='irdina_tableau_data' name='federated.0xk3kt71yuq1lx13bawys0l2aljm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xk3kt71yuq1lx13bawys0l2aljm'>
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column caption='Work life balance score' datatype='real' name='[Work_life_balance_score]' role='measure' type='quantitative' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Work_life_balance_score]' derivation='Sum' name='[sum:Work_life_balance_score:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[sum:Work_life_balance_score:qk]' field-type='quantitative' max='829.58110536419417' min='119.26577246693456' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[none:Gender:nk]' value='106' />
+          </style-rule>
+          <style-rule element='refboxplot'>
+            <format attr='palette' id='refline0' value='bp_red' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <reference-line axis-column='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[sum:Work_life_balance_score:qk]' boxplot-mark-exclusion='true' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[sum:Work_life_balance_score:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.20790055394172668' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xk3kt71yuq1lx13bawys0l2aljm].[sum:Work_life_balance_score:qk]</rows>
+        <cols>[federated.0xk3kt71yuq1lx13bawys0l2aljm].[none:Gender:nk]</cols>
+      </table>
+      <simple-id uuid='{4DA661A6-508F-479A-957F-EC6D17ACA5C1}' />
+    </worksheet>
+    <worksheet name='scatterplot'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontsize='13'>Top Correlated Lifestyle Factors with Work-Life Balance</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='irdina_tableau_data' name='federated.0xk3kt71yuq1lx13bawys0l2aljm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xk3kt71yuq1lx13bawys0l2aljm'>
+            <column datatype='integer' name='[Achievement]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Age]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column caption='Places visited' datatype='integer' name='[Places_visited]' role='measure' type='quantitative' />
+            <column caption='Supporting others' datatype='integer' name='[Supporting_others]' role='measure' type='quantitative' />
+            <column caption='Work life balance score' datatype='real' name='[Work_life_balance_score]' role='measure' type='quantitative' />
+            <column-instance column='[Achievement]' derivation='Avg' name='[avg:Achievement:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Places_visited]' derivation='Avg' name='[avg:Places_visited:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Supporting_others]' derivation='Avg' name='[avg:Supporting_others:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age]' derivation='None' name='[none:Age:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Work_life_balance_score]' derivation='None' name='[none:Work_life_balance_score:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[none:Age:nk]'>
+            <groupfilter function='level-members' level='[none:Age:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[none:Gender:nk]'>
+            <groupfilter function='level-members' level='[none:Gender:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0xk3kt71yuq1lx13bawys0l2aljm].[none:Gender:nk]</column>
+            <column>[federated.0xk3kt71yuq1lx13bawys0l2aljm].[none:Age:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#69aaa5' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[avg:Supporting_others:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.51574587821960449' />
+                <format attr='mark-color' value='#69aaa5' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[avg:Achievement:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.51574587821960449' />
+                <format attr='mark-color' value='#69aaa5' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[avg:Places_visited:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.51574587821960449' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#69aaa5' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0xk3kt71yuq1lx13bawys0l2aljm].[avg:Achievement:qk] + ([federated.0xk3kt71yuq1lx13bawys0l2aljm].[avg:Supporting_others:qk] + [federated.0xk3kt71yuq1lx13bawys0l2aljm].[avg:Places_visited:qk]))</rows>
+        <cols>[federated.0xk3kt71yuq1lx13bawys0l2aljm].[none:Work_life_balance_score:qk]</cols>
+      </table>
+      <simple-id uuid='{96DEED13-5E96-425D-8384-E0874B21BE7A}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Top Correlated Factors Within Different Demographic Groups</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='irdina_tableau_data' name='federated.0xk3kt71yuq1lx13bawys0l2aljm' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0xk3kt71yuq1lx13bawys0l2aljm'>
+        <column datatype='string' name='[Age]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+        <column-instance column='[Age]' derivation='None' name='[none:Age:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97830' id='12' param='vert' type-v2='layout-flow' w='98828' x='586' y='1085'>
+            <zone fixed-size='50' h='7869' id='13' is-fixed='true' type-v2='title' w='98828' x='586' y='1085'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='89961' id='9' param='horz' type-v2='layout-flow' w='98828' x='586' y='8954'>
+              <zone h='89961' id='7' type-v2='layout-basic' w='92235' x='586' y='8954'>
+                <zone h='89961' id='3' name='scatterplot' w='62047' x='30774' y='8954'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='44963' id='6' name='gender' w='30188' x='586' y='8954'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='44998' id='14' name='age' w='30188' x='586' y='53917'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone fixed-size='90' h='89961' id='8' is-fixed='true' param='vert' type-v2='layout-flow' w='6593' x='92821' y='8954'>
+                <zone fixed-size='105' h='15332' id='10' is-fixed='true' name='scatterplot' param='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[none:Gender:nk]' type-v2='filter' values='database' w='6593' x='92821' y='8954'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='173' h='24559' id='15' is-fixed='true' name='scatterplot' param='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[none:Age:nk]' type-v2='filter' values='database' w='6593' x='92821' y='24286'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true'>Top Correlated Factors Within Different Demographic Groups</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1050' minheight='1050' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='23' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97260' id='22' param='vert' type-v2='layout-flow' w='98806' x='597' y='1370'>
+                <zone fixed-size='50' h='9932' id='13' type-v2='title' w='98806' x='597' y='1370'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='43653' id='6' is-fixed='true' name='gender' w='30150' x='597' y='11302'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='105' h='19349' id='10' mode='checkdropdown' name='scatterplot' param='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[none:Gender:nk]' type-v2='filter' values='database' w='6716' x='92687' y='11302'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='173' h='30993' id='15' mode='checkdropdown' name='scatterplot' param='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[none:Age:nk]' type-v2='filter' values='database' w='6716' x='92687' y='30651'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='87328' id='3' is-fixed='true' name='scatterplot' w='61940' x='30747' y='11302'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='43675' id='14' is-fixed='true' name='age' w='30150' x='597' y='54955'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{6ADE4565-3B4F-4D7A-B2F9-05509515AF38}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 2'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='irdina_tableau_data' name='federated.0xk3kt71yuq1lx13bawys0l2aljm' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0xk3kt71yuq1lx13bawys0l2aljm'>
+        <column datatype='string' name='[Age]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+        <column-instance column='[Age]' derivation='None' name='[none:Age:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='96982' id='12' param='horz' type-v2='layout-flow' w='98580' x='710' y='1509'>
+            <zone h='96982' id='5' param='vert' type-v2='layout-flow' w='98580' x='710' y='1509'>
+              <zone h='7924' id='7' type-v2='title' w='98580' x='710' y='1509'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='89058' id='6' type-v2='layout-basic' w='98580' x='710' y='9433'>
+                <zone h='44527' id='8' name='Sheet 4' w='98580' x='710' y='9433'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='44531' id='9' name='age' w='51996' x='30548' y='53960'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='44531' id='10' name='gender' w='29838' x='710' y='53960'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='44531' id='13' name='Sheet 4' param='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[none:Age:nk]' type-v2='filter' values='database' w='8372' x='82544' y='53960'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='44531' id='14' name='Sheet 4' param='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[none:Gender:nk]' type-v2='filter' values='database' w='8374' x='90916' y='53960'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1050' minheight='1050' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='16' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='96982' id='15' param='vert' type-v2='layout-flow' w='98580' x='710' y='1509'>
+                <zone h='7924' id='7' type-v2='title' w='98580' x='710' y='1509'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='44530' id='13' mode='checkdropdown' name='Sheet 4' param='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[none:Age:nk]' type-v2='filter' values='database' w='8372' x='82545' y='53961'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='44530' id='14' mode='checkdropdown' name='Sheet 4' param='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[none:Gender:nk]' type-v2='filter' values='database' w='8373' x='90917' y='53961'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='44528' id='8' is-fixed='true' name='Sheet 4' w='98580' x='710' y='9433'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='44530' id='10' is-fixed='true' name='gender' w='29839' x='710' y='53961'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='44530' id='9' is-fixed='true' name='age' w='51996' x='30549' y='53961'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{EDCBF249-321C-4296-B684-BE32E06976EC}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='gender'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{32AC344D-4F51-4F11-9BD7-4542A4742882}' />
+    </window>
+    <window class='worksheet' name='age'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B9EA2426-30B3-4EEA-A8E8-2262F55E3E46}' />
+    </window>
+    <window class='worksheet' name='scatterplot'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9E741D58-50AF-4C61-9A1C-D2A2A31CEC81}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='age'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='gender'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='scatterplot'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='15' />
+      <simple-id uuid='{45D930FE-EACF-4FFD-858C-4C8379A3B1D3}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[none:Gender:nk]' type='filter' />
+            <card param='[federated.0xk3kt71yuq1lx13bawys0l2aljm].[none:Age:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1ED40721-A9E6-49CA-83B5-279162316A87}' />
+    </window>
+    <window class='dashboard' name='Dashboard 2'>
+      <viewpoints>
+        <viewpoint name='Sheet 4'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='age'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='gender'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='14' />
+      <device-preview visible='true' />
+      <simple-id uuid='{0796B2C2-6706-4AF7-8DB5-D8CCEA0ABF0E}' />
+    </window>
+  </windows>
+</workbook>
