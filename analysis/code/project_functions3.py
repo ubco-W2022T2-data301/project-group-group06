@@ -19,8 +19,10 @@ def load_process(url_or_path_to_csv_file):
                          "DAILY_SHOUTING", "SUFFICIENT_INCOME", "PERSONAL_AWARDS", "TIME_FOR_PASSION", 
                          "WEEKLY_MEDITATION", "AGE", "WORK_LIFE_BALANCE_SCORE", "FLOW", "LIVE_VISION", 
                          "Timestamp"])
+          .sort_values(by='DAILY_STRESS', ascending=True)
           .assign(BMI_RANGE = lambda x: x['BMI_RANGE'].astype(object), 
-                  TODO_COMPLETED = lambda x: x['TODO_COMPLETED'].astype(object))
+                  TODO_COMPLETED = lambda x: x['TODO_COMPLETED'].astype(object),
+                 )
           .reset_index(drop=True)
       )
 
