@@ -1,0 +1,1047 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.23.0209.1653                               -->
+<workbook original-version='18.1' source-build='2022.4.1 (20224.23.0209.1653)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='analysis3_data' inline='true' name='federated.03z6c7r0h2jtgq16sssyi1an9une' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='analysis3_data' name='textscan.0fypd8x02t9grj19dk57500rjk7r'>
+            <connection class='textscan' directory='C:/Users/Eween/Documents/UBC/DATA 301/project-group-group06/data/processed' filename='analysis3_data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0fypd8x02t9grj19dk57500rjk7r' name='analysis3_data.csv' table='[analysis3_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='FRUITS_VEGGIES' ordinal='0' />
+            <column datatype='integer' name='DAILY_STRESS' ordinal='1' />
+            <column datatype='integer' name='BMI_RANGE' ordinal='2' />
+            <column datatype='integer' name='TODO_COMPLETED' ordinal='3' />
+            <column datatype='integer' name='DAILY_STEPS' ordinal='4' />
+            <column datatype='integer' name='SLEEP_HOURS' ordinal='5' />
+            <column datatype='string' name='GENDER' ordinal='6' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0fypd8x02t9grj19dk57500rjk7r' name='analysis3_data.csv' table='[analysis3_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='FRUITS_VEGGIES' ordinal='0' />
+            <column datatype='integer' name='DAILY_STRESS' ordinal='1' />
+            <column datatype='integer' name='BMI_RANGE' ordinal='2' />
+            <column datatype='integer' name='TODO_COMPLETED' ordinal='3' />
+            <column datatype='integer' name='DAILY_STEPS' ordinal='4' />
+            <column datatype='integer' name='SLEEP_HOURS' ordinal='5' />
+            <column datatype='string' name='GENDER' ordinal='6' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[analysis3_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FRUITS_VEGGIES</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FRUITS_VEGGIES]</local-name>
+            <parent-name>[analysis3_data.csv]</parent-name>
+            <remote-alias>FRUITS_VEGGIES</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DAILY_STRESS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DAILY_STRESS]</local-name>
+            <parent-name>[analysis3_data.csv]</parent-name>
+            <remote-alias>DAILY_STRESS</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BMI_RANGE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[BMI_RANGE]</local-name>
+            <parent-name>[analysis3_data.csv]</parent-name>
+            <remote-alias>BMI_RANGE</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TODO_COMPLETED</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TODO_COMPLETED]</local-name>
+            <parent-name>[analysis3_data.csv]</parent-name>
+            <remote-alias>TODO_COMPLETED</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DAILY_STEPS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DAILY_STEPS]</local-name>
+            <parent-name>[analysis3_data.csv]</parent-name>
+            <remote-alias>DAILY_STEPS</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SLEEP_HOURS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SLEEP_HOURS]</local-name>
+            <parent-name>[analysis3_data.csv]</parent-name>
+            <remote-alias>SLEEP_HOURS</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GENDER</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GENDER]</local-name>
+            <parent-name>[analysis3_data.csv]</parent-name>
+            <remote-alias>GENDER</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Bmi Range' datatype='integer' name='[BMI_RANGE]' role='measure' type='quantitative' />
+      <column caption='Daily Steps' datatype='integer' name='[DAILY_STEPS]' role='measure' type='quantitative' />
+      <column caption='Daily Stress' datatype='integer' name='[DAILY_STRESS]' role='measure' type='quantitative' />
+      <column caption='Fruits Veggies' datatype='integer' name='[FRUITS_VEGGIES]' role='dimension' type='ordinal' />
+      <column caption='Gender' datatype='string' name='[GENDER]' role='dimension' type='nominal' />
+      <column caption='Sleep Hours' datatype='integer' name='[SLEEP_HOURS]' role='measure' type='quantitative' />
+      <column caption='Todo Completed' datatype='integer' name='[TODO_COMPLETED]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='analysis3_data.csv' datatype='table' name='[__tableau_internal_object_id__].[analysis3_data.csv_F566E273ECCC4DABAE6AD39531FABE25]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='analysis3_data.csv' id='analysis3_data.csv_F566E273ECCC4DABAE6AD39531FABE25'>
+            <properties context=''>
+              <relation connection='textscan.0fypd8x02t9grj19dk57500rjk7r' name='analysis3_data.csv' table='[analysis3_data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='FRUITS_VEGGIES' ordinal='0' />
+                  <column datatype='integer' name='DAILY_STRESS' ordinal='1' />
+                  <column datatype='integer' name='BMI_RANGE' ordinal='2' />
+                  <column datatype='integer' name='TODO_COMPLETED' ordinal='3' />
+                  <column datatype='integer' name='DAILY_STEPS' ordinal='4' />
+                  <column datatype='integer' name='SLEEP_HOURS' ordinal='5' />
+                  <column datatype='string' name='GENDER' ordinal='6' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='The distribution of (Fruit_veggies and Daily_Steps) to (BMI_range) as a measure of healthy body.'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000dd' fontname='-apple-system' fontsize='12'>The distribution of FRUIT_VEGGIES and DAILY_STEPS to BMI_RANGE</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='analysis3_data' name='federated.03z6c7r0h2jtgq16sssyi1an9une' />
+          </datasources>
+          <datasource-dependencies datasource='federated.03z6c7r0h2jtgq16sssyi1an9une'>
+            <column caption='Bmi Range' datatype='integer' name='[BMI_RANGE]' role='measure' type='quantitative' />
+            <column caption='Daily Steps' datatype='integer' name='[DAILY_STEPS]' role='measure' type='quantitative' />
+            <column caption='Fruits Veggies' datatype='integer' name='[FRUITS_VEGGIES]' role='dimension' type='ordinal' />
+            <column caption='Gender' datatype='string' name='[GENDER]' role='dimension' type='nominal' />
+            <column-instance column='[FRUITS_VEGGIES]' derivation='Avg' name='[avg:FRUITS_VEGGIES:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[BMI_RANGE]' derivation='None' name='[none:BMI_RANGE:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[DAILY_STEPS]' derivation='None' name='[none:DAILY_STEPS:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[GENDER]' derivation='None' name='[none:GENDER:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:BMI_RANGE:ok]' filter-group='4'>
+            <groupfilter function='member' level='[none:BMI_RANGE:ok]' member='2' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:GENDER:nk]' filter-group='3'>
+            <groupfilter function='member' level='[none:GENDER:nk]' member='&quot;Male&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:GENDER:nk]</column>
+            <column>[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:BMI_RANGE:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.03z6c7r0h2jtgq16sssyi1an9une].[avg:FRUITS_VEGGIES:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='display' class='1' field='[federated.03z6c7r0h2jtgq16sssyi1an9une].[avg:FRUITS_VEGGIES:qk]' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.03z6c7r0h2jtgq16sssyi1an9une].[avg:FRUITS_VEGGIES:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.82359117269515991' />
+                <format attr='mark-color' value='#ff9da7' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.03z6c7r0h2jtgq16sssyi1an9une].[avg:FRUITS_VEGGIES:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+                <format attr='mark-color' value='#8cd17d' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.03z6c7r0h2jtgq16sssyi1an9une].[avg:FRUITS_VEGGIES:qk] + [federated.03z6c7r0h2jtgq16sssyi1an9une].[avg:FRUITS_VEGGIES:qk])</rows>
+        <cols>([federated.03z6c7r0h2jtgq16sssyi1an9une].[none:BMI_RANGE:ok] * [federated.03z6c7r0h2jtgq16sssyi1an9une].[none:DAILY_STEPS:qk])</cols>
+      </table>
+      <simple-id uuid='{C9DD0C43-E40B-42B2-8478-D85324739489}' />
+    </worksheet>
+    <worksheet name='The distribution of (Sleep_hours and BMI_range) to (Todo_complete) as a measure of self-sufficient in productivity.'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontsize='12'>The distribution of (SLEEP_HOURS and BMI_RANGE) to (TODO_COMPLETE) as a measure of self-sufficient in productivity.</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='analysis3_data' name='federated.03z6c7r0h2jtgq16sssyi1an9une' />
+          </datasources>
+          <datasource-dependencies datasource='federated.03z6c7r0h2jtgq16sssyi1an9une'>
+            <column caption='Bmi Range' datatype='integer' name='[BMI_RANGE]' role='measure' type='quantitative' />
+            <column caption='Gender' datatype='string' name='[GENDER]' role='dimension' type='nominal' />
+            <column caption='Sleep Hours' datatype='integer' name='[SLEEP_HOURS]' role='measure' type='quantitative' />
+            <column caption='Todo Completed' datatype='integer' name='[TODO_COMPLETED]' role='measure' type='quantitative' />
+            <column-instance column='[TODO_COMPLETED]' derivation='Avg' name='[avg:TODO_COMPLETED:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[BMI_RANGE]' derivation='None' name='[none:BMI_RANGE:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[GENDER]' derivation='None' name='[none:GENDER:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SLEEP_HOURS]' derivation='None' name='[none:SLEEP_HOURS:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:BMI_RANGE:ok]' filter-group='4'>
+            <groupfilter function='member' level='[none:BMI_RANGE:ok]' member='2' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:GENDER:nk]' filter-group='3'>
+            <groupfilter function='member' level='[none:GENDER:nk]' member='&quot;Male&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:BMI_RANGE:ok]</column>
+            <column>[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:GENDER:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#c290b4' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.03z6c7r0h2jtgq16sssyi1an9une].[avg:TODO_COMPLETED:qk]</rows>
+        <cols>[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:SLEEP_HOURS:ok]</cols>
+      </table>
+      <simple-id uuid='{AE2E4042-E21C-4E4B-8328-4738FD7D6F23}' />
+    </worksheet>
+    <worksheet name='The relationship between (Daily_stress) and (Todo_complete) to conclude whether an orderly and productive life would impose less stress'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontsize='12'>The relationship between (Daily_stress) and (Todo_complete) to conclude whether an orderly and productive life would impose less stress</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='analysis3_data' name='federated.03z6c7r0h2jtgq16sssyi1an9une' />
+          </datasources>
+          <datasource-dependencies datasource='federated.03z6c7r0h2jtgq16sssyi1an9une'>
+            <column caption='Bmi Range' datatype='integer' name='[BMI_RANGE]' role='measure' type='quantitative' />
+            <column caption='Daily Stress' datatype='integer' name='[DAILY_STRESS]' role='measure' type='quantitative' />
+            <column caption='Gender' datatype='string' name='[GENDER]' role='dimension' type='nominal' />
+            <column caption='Todo Completed' datatype='integer' name='[TODO_COMPLETED]' role='measure' type='quantitative' />
+            <column-instance column='[BMI_RANGE]' derivation='None' name='[none:BMI_RANGE:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[DAILY_STRESS]' derivation='None' name='[none:DAILY_STRESS:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[GENDER]' derivation='None' name='[none:GENDER:nk]' pivot='key' type='nominal' />
+            <column-instance column='[TODO_COMPLETED]' derivation='None' name='[none:TODO_COMPLETED:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:BMI_RANGE:ok]'>
+            <groupfilter function='member' level='[none:BMI_RANGE:ok]' member='1' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:TODO_COMPLETED:ok]'>
+            <groupfilter function='member' level='[none:TODO_COMPLETED:ok]' member='10' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:BMI_RANGE:ok]</column>
+            <column>[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:TODO_COMPLETED:ok]</column>
+          </slices>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='refboxplot'>
+            <format attr='palette' id='refline0' value='bp_orange' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <reference-line axis-column='[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:DAILY_STRESS:qk]' boxplot-mark-exclusion='true' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:DAILY_STRESS:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e799b3' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:GENDER:nk]</rows>
+        <cols>[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:DAILY_STRESS:qk]</cols>
+      </table>
+      <simple-id uuid='{44963464-C84D-42C0-9A5D-275C5A1DD801}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard analysis 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000dd' fontname='-apple-system' fontsize='20'>Is being self-sufficient the main core of self-care in leading a thriving life?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='analysis3_data' name='federated.03z6c7r0h2jtgq16sssyi1an9une' />
+      </datasources>
+      <datasource-dependencies datasource='federated.03z6c7r0h2jtgq16sssyi1an9une'>
+        <column caption='Bmi Range' datatype='integer' name='[BMI_RANGE]' role='measure' type='quantitative' />
+        <column caption='Gender' datatype='string' name='[GENDER]' role='dimension' type='nominal' />
+        <column caption='Todo Completed' datatype='integer' name='[TODO_COMPLETED]' role='measure' type='quantitative' />
+        <column-instance column='[BMI_RANGE]' derivation='None' name='[none:BMI_RANGE:ok]' pivot='key' type='ordinal' />
+        <column-instance column='[GENDER]' derivation='None' name='[none:GENDER:nk]' pivot='key' type='nominal' />
+        <column-instance column='[TODO_COMPLETED]' derivation='None' name='[none:TODO_COMPLETED:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98214' id='25' param='vert' type-v2='layout-flow' w='99084' x='458' y='893'>
+            <zone h='4353' id='26' type-v2='title' w='99084' x='458' y='893'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='93861' id='23' type-v2='layout-basic' w='99084' x='458' y='5246'>
+              <zone h='85228' id='7' param='horz' type-v2='layout-flow' w='99084' x='458' y='13879'>
+                <zone h='85228' id='5' type-v2='layout-basic' w='99084' x='458' y='13879'>
+                  <zone h='56424' id='3' name='The distribution of (Fruit_veggies and Daily_Steps) to (BMI_range) as a measure of healthy body.' w='58979' x='458' y='13879'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='56424' id='10' name='The distribution of (Sleep_hours and BMI_range) to (Todo_complete) as a measure of self-sufficient in productivity.' w='40105' x='59437' y='13879'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='28804' id='13' name='The relationship between (Daily_stress) and (Todo_complete) to conclude whether an orderly and productive life would impose less stress' w='81292' x='458' y='70303'>
+                    <layout-cache minwidth='180' type-h='cell' type-w='scalable' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='28804' id='14' mode='slider' name='The relationship between (Daily_stress) and (Todo_complete) to conclude whether an orderly and productive life would impose less stress' param='[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:TODO_COMPLETED:ok]' type-v2='filter' values='database' w='17792' x='81750' y='70303'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='8633' id='8' mode='dropdown' name='The distribution of (Fruit_veggies and Daily_Steps) to (BMI_range) as a measure of healthy body.' param='[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:GENDER:nk]' type-v2='filter' w='46451' x='458' y='5246'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='8633' id='9' mode='slider' name='The distribution of (Fruit_veggies and Daily_Steps) to (BMI_range) as a measure of healthy body.' param='[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:BMI_RANGE:ok]' type-v2='filter' w='52633' x='46909' y='5246'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run fontalignment='1' fontcolor='#000000dd' fontname='-apple-system' fontsize='20'>Is being self-sufficient the main core of self-care in leading a thriving life?</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1100' minheight='1100' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='28' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98214' id='27' param='vert' type-v2='layout-flow' w='99084' x='458' y='893'>
+                <zone h='4353' id='26' type-v2='title' w='99084' x='458' y='893'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8633' id='8' mode='dropdown' name='The distribution of (Fruit_veggies and Daily_Steps) to (BMI_range) as a measure of healthy body.' param='[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:GENDER:nk]' type-v2='filter' w='46451' x='458' y='5246'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8633' id='9' mode='slider' name='The distribution of (Fruit_veggies and Daily_Steps) to (BMI_range) as a measure of healthy body.' param='[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:BMI_RANGE:ok]' type-v2='filter' w='52633' x='46909' y='5246'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='56424' id='3' is-fixed='true' name='The distribution of (Fruit_veggies and Daily_Steps) to (BMI_range) as a measure of healthy body.' w='58979' x='458' y='13879'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='56424' id='10' is-fixed='true' name='The distribution of (Sleep_hours and BMI_range) to (Todo_complete) as a measure of self-sufficient in productivity.' w='40105' x='59437' y='13879'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='28804' id='14' mode='slider' name='The relationship between (Daily_stress) and (Todo_complete) to conclude whether an orderly and productive life would impose less stress' param='[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:TODO_COMPLETED:ok]' type-v2='filter' values='database' w='17792' x='81750' y='70303'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='223' h='28804' id='13' is-fixed='true' name='The relationship between (Daily_stress) and (Todo_complete) to conclude whether an orderly and productive life would impose less stress' w='81292' x='458' y='70303'>
+                  <layout-cache minwidth='180' type-h='cell' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{14ACB3E5-4123-4B22-8862-FBB158DBD3CB}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='The distribution of (Fruit_veggies and Daily_Steps) to (BMI_range) as a measure of healthy body.'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:BMI_RANGE:ok]</field>
+            <field>[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:BMI_RANGE:qk]</field>
+            <field>[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:FRUITS_VEGGIES:nk]</field>
+            <field>[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:GENDER:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D5D83096-4699-47DC-9237-854F63514984}' />
+    </window>
+    <window class='worksheet' name='The distribution of (Sleep_hours and BMI_range) to (Todo_complete) as a measure of self-sufficient in productivity.'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='300'>
+            <card param='[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:BMI_RANGE:ok]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.03z6c7r0h2jtgq16sssyi1an9une].[avg:TODO_COMPLETED:ok]</field>
+            <field>[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:BMI_RANGE:qk]</field>
+            <field>[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:GENDER:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F1878EE4-9913-4A24-906F-2B99B38B0A1A}' />
+    </window>
+    <window class='worksheet' name='The relationship between (Daily_stress) and (Todo_complete) to conclude whether an orderly and productive life would impose less stress'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='slider' param='[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:TODO_COMPLETED:ok]' type='filter' />
+            <card param='[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:BMI_RANGE:ok]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:BMI_RANGE:ok]</field>
+            <field>[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:BMI_RANGE:qk]</field>
+            <field>[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:DAILY_STRESS:qk]</field>
+            <field>[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:GENDER:nk]</field>
+            <field>[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:TODO_COMPLETED:ok]</field>
+            <field>[federated.03z6c7r0h2jtgq16sssyi1an9une].[none:TODO_COMPLETED:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6102DB01-34E6-43CF-BC95-9590C1DE9725}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard analysis 3'>
+      <viewpoints>
+        <viewpoint name='The distribution of (Fruit_veggies and Daily_Steps) to (BMI_range) as a measure of healthy body.'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='The distribution of (Sleep_hours and BMI_range) to (Todo_complete) as a measure of self-sufficient in productivity.' />
+        <viewpoint name='The relationship between (Daily_stress) and (Todo_complete) to conclude whether an orderly and productive life would impose less stress'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='14' />
+      <simple-id uuid='{D038BBAD-AD33-4E2C-B728-492CB7FFD693}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard analysis 3' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAd5ElEQVR4nO3dd3Cb953n8Td6fdBJgmARqUZVqtuyrJVbfDnHjrObssnebvYuxZtctmQn
+      d0n+uJmzZ+7mxpdksvFsYjubi5XqxFkriZPYjixHkVVsy6oUJRaxgyRIgiRA9PYAz/1BmRJj
+      0aJksOL3mtGIAIEvvgCfD572e55HpSiKgiCUKPVCNyAIC0kEQChpIgBCSRMBWKIO/NvjvNkx
+      ft3f/eSJR5nhV0CU/fsPvPcGkgN8+dEnaH3jJf75K/+TYCx/w6fI0UEe+bu/59BLL/D5f/xv
+      PP2v32QgOv0xz+7fT+YGdX7zw6cYTF69/dTTTwHjPProEzf9NrQ3/QxhUXnhZ8/QPRTCt3Yn
+      H3/o7qn7n/3+t9HlkzzyD19k6OJRXj7WhMXt4wufeQiAQwd+TMtIjInRMR75py8zcO4Qh09f
+      JhUZ45GvPk61DTKxIN9++gdk5Twf+9vPkfSfuVrnr/YB8Pwvfo7KtZtySQNAX+sZnvvtHymo
+      dfzTf/1P/OgXR/n8pz7C/v37qTKlmEjnefON4+QUA2VlTgAO/Pi7dAdCbNrz/snmFZkfPP0d
+      xmJpbrvvYaR4J4fO9pGJjvPR//IIrxw8yLhjHZ/60D1Eh3s4ePAg2/Zso7flDN/65tdw1m7h
+      kx+8kyeffIpEtsADH/kbGldXAfCLZ/cTDsUYS+bx2fViDrDUHTvxOtvvuIftG1Zcc6+GD378
+      b/jMh/bwowMv8+3v/ph9+/aS6n2LN9sG6e0dYGSgk70P/DUfvmsTR06e48DBk3z1K/+dcmOG
+      VG6ySrC3lYEIPPTQB7EaVdPrtAcB2Lt3Lw8//PDUK585cRhb1VoeeuB9KLkUXb0DAPT09rB3
+      753s2Hs/n3jwHu75wMOkRnoZ779EU1DPl7/6VYxyFH9PD+0nX+HSqMLeffv4yfe/y8TYEA07
+      7+Xv//o/8ttDJ2lsbOT+++8BwOatp7Gxkd2Na3BWreafv/QV2s++xmu/e5aE0cdde2/ne09/
+      d6q/7gvNPPzpL2BLDbDnw58VAVja8nzm7/6RicHLPP7Np665X43DLmGVrKTTCVBrUQF/9uAn
+      aPBJU4+y2ewYjUYKhTSgRwXYbbap3zuqN/DJD93N0Ref4/lXTkyvUylxrZ/vf5InntzPjvs/
+      ytY6K/uf/BYX/WOor2xkz8vXX0RKx+OYbTZAjVo1eV8ikcAqSYCKRx757JVebVd6Lcz4adjt
+      dgB0Oh2JRAJJkkBj5LOf/uTVB+mt2M1aDAYLFotBBGBpU/PSr39OV/8QK+rqr7lf4fvf+Qb/
+      +9s/46MPPcB9d27h8GvH+OUvf0WmcL0/uZnGeiuPf/0bvHjk5NS92fgoP33ul0SzUF9d8yd1
+      VNMqfOJTX+CLX/gUw+2n+d2rJ9FbXZR769HHO/jWE99iJCpf9x24Vm2D/tN842uP0zEcB2Dj
+      HfeRGWrl9RPHOHz81Due4/O5eOGFg1O3DXKc42fbpj1m3/v/nO7zxzh+9DBvnmud8RNUiR1h
+      AsD/+h9f5q4P/Dkv/uq3PPp/H8esWeiO5ocIgABANhml6WIbq9dvximZFrqdeSMCIJQ0sQ4g
+      lDQRAKGkTdsR9sdDL+Pw1lHjsZI3WAgHAvjqVnL21efxbHsIizqDVSujt5VjtxgWqmdBKJpp
+      6wCvHDxIJBZDJaepWVtDOqrQfa6NhttXc74zRkO9l0w0xAMPPojq3aoKwhIxLQDx8Cj9Y3E8
+      Vg0pRYvdYkGRZQYGB6msqmI0HKOyzDm1w0EQljqxFUgoadNWgmMBPxd6+jly5MjUfb29vfPc
+      kiDMn2kBkNMyyUyEUDjGxVPH+MmBF0lEh/m37zxJx8DYQvUoCHNm2iJQKhxmLBEmo7JiykUJ
+      xmWqyh0M9PSyYt1m3HbLQvYqCEUn1gGEkiZ2hAklTQRAKGkiAEJJEwEQSpoIgFDSRACEkiYC
+      IJQ0EQChpIkACCVNBEAoaSIAQkkTARBKmuaxxx57bKGbWAyazrzGj37yAnK4m9ZR8Ja5CfS0
+      oeitmAw6QiMD/PAHz6J32tFkEwRCCV74xY/xVFQy0N3OsUOHCWRVVJXZiUTTJMLDPPPTf8dl
+      l5DTMcbjObLxEN39I1SUuaEg03S+CZNRzf/5+pPcfdedfO/JJ8jl4dzRo/QlEhw7coKujnY2
+      bNjAgQMH6O3tRZ3P8P+e+QHlvhW4nTbSYT8/e+kka8tVfP97z3C6exxFzpEe83OmtYuzp8/h
+      MOQ4eqaVi2dPo04P09zey8E3LqLIOfpaz9I7FGRwJESNz8vYcD99wxOoCxk6OnopL3dyofl1
+      jh3vZuOGev71X75GYmKUhNbN2WO/obU3QvjyRQbGOxinCkuqn98caaL7whtUrFyPUasmFmjn
+      wKFT9A8MoM4lJvt3atj/7CHUFGg5eZSuaJw3T7xF3+VmRkcCpFQ2JG2WZ376PD63RCRVwGY1
+      84tnf0gsHqf5sp9nnv42d99/H197/OtEoxHWrFkDwHjHm/zo4DlaTx1nxabt/PyJR8mVb+bF
+      /V9HX7mR44d/z0RwgL7BYTEHeNuWHbtYtWoNPo8Dl9vCr37wFAcOneRnP3sOgCMn3sJhMdDR
+      0cHhV1+h1z+AzV3BW6+fwGnIMRBKU+Ur4+Bvn+Pk+S6OvnEKX5mTjo4Wjr5+njPH/8grfzzK
+      2OVzDGfg2Csv4a6u5tVjr7Nl46arx1jrTFgNarLJCGqDdao/tXryT7Vq3SZWrVrFmvpqAIzO
+      WnS5EK8dP8P737cHAK1Oy4XOfu69Yxsuq5ZXTnbygXvvoNxlJRxNT9XU6rSsrF9B1+UOUpnJ
+      UxceO/oa//788xz5w2E0iX7+5emf4ynzIl+ZUny1q7j3gXvpbm6itb2ftpbz0z5HqWIlTtmP
+      wdeIwzh5zgWz24c6GSQ4HmHl2/3XVV95v1p0V55bXlFBdWU5XT1+5Hweg9WJ26Zw4mQbrx/9
+      w9RrKPkssUSaVeVaXvjly2hcvnf8PZVCnkRWBZEexjReTh3+Pe66DZz74++QFRgJJ9i4tl4E
+      4HpcZV60ej0VbgebNm0EQKNk8QdGAVi/qZH2losgp8ipjRi0kx9je8tFJE8Ng10XGIskiUWj
+      FNAgpydIyCqcDicmvRY5D26nnabz53G6y6Ze111Rze4dWwAdd9zzPnLhAPXV5Rw+ehyVbuZj
+      MfZsqKI9qsOmn4xRJpVi4+pqDr9xjuDwEDs2realw28wFhwmI18d/Z5JpRgJTbBm7VqyqRgA
+      sXgCjZxDK9lxWIw4HTYuNF/i7XPSBvxdHH75MGo5xN4Pf4b7t9ZyaXDyJP+Xzp2iyx9ghddD
+      Re3Vc5XGxoM4KusxaeEdp7bNpUjldOzYvZv7776TWDJNw7o1TIxNXuAgGk2RSY6RVa6eq1Gl
+      MWIxanHWb6GttZmV7neeyW7d5p147Wp+/eIJPveFz1NhhWRezYc+8GecvdRLhdPMxfYecTzA
+      UjU+MkBHzwDoTFdCs/h0tDQxHk3hrqiemmMtttcTARBKmlgEEkraew5AMpm88YMEYZF6zwHI
+      5298cTRh8QsG/Fxq737H/bFwkAstHSzX5WRxkTwBgIvNzYTiMppCgvFQFKvDA3IaORZDo83Q
+      3GNBX0gxEejHXVHF8NAA7soVpFJpdmzZsNDt3zIRAGFKIZ3GPxbBrIJYeHKTr6mQpcU/hi14
+      kkguz4oKLxeOHwHJQnNnALNkW9IBeM9bgWKx2OTFyISSkUvFOHPuIltu241Ju7RPkywCIJQ0
+      sRlUuAGFQX8vGXnmy5MuZSIAwrsryOiNJsbHwwvdyZwQARDeXSFLS1sXZvPyvHKkWAcQStq0
+      zaCxWOymC8zVnuBCoTA1BFjUFXXnqu60ANzqN/lczAFkWUarLf5uClFX1L2WWAcQSpoIgFDS
+      Zh2AdCJKa0sb2QKER4fp6Q/MZV+CMC9mvVBltJiRk3FyBYinc2gUhUKhQKFQQJblojcm6oq6
+      81F31gFIRmPojDqi0Tha8kQyk2vlarV6Sa30iLqi7hRFmX0AzDYn6zY5J2+4rFQWtxVBmBO5
+      Qo5YLkIsGyGWixC95mc5ERPDoYWlq6AUSORikxP1n0zk6XwKAJ1Kh6S3I+km/1VbViA57Eg6
+      G9ruQREAYXFSFIWknCCWixBPjhMNBYhL6snbuRgKCmrUWHQStisTt8tYxgppNTadHYPWiIob
+      DNVeXScCIMy/t7+5Y7ko8Vz0yv8RYrkoSTmOggKoMGstSDob1sEo0sAE3sadSLW7sWitqFXF
+      2YIvAiAUj6JQSCWJGPLXTNyRqYk8JScBBdWVb25JZ8Oqs2HT2/FZapB0NszXm7idaQrOYdT1
+      tVDk4RAiAMIty+azjKaHGEkNMZIKEJkIoI7EkVw+JJcPq86Gy+Ch1roKSWfDpDGjUt3CEWQm
+      I4W66rkfCyQIM8kreYYS/Vcn9mwYnVpPuclLhcnHHeV3Y89E4HILqo13gtOx0C3PigiA8A75
+      gsxYOshIKsBIKkAoM4YKFZXmaipMPlbb12HTOd75bb7ahVxXMyf7AebK0ulUmBNyQWYsPTI1
+      sYczY6hQ4zFWUGH2sc1zOy5DWdFWOhcbEYASoigKE9kQgVgvg73nCNkVNBrd5MRuqmSH5w6c
+      Bs+yndivRwRgGcsX8oykAgSSfgYTfpJyHIfBjU92sr1Dh7thG6rtjQvd5oISAVhGUnKSQLKf
+      QMLPcGqQglKgwuTDZ6llvaMRi+7qgUt5TxyVdeZrDpSKWQcgk4zRdukSKxp3E/K3oTbaqKt5
+      55U5hPkxtTiT8DOY9DOeHsWoMeGz1FAnrWF3xd3o1LqZn28ywq1sklxmZj8HKCi4a1bhMEDK
+      ZKJ/JEhtlXfJDX9dqnXzSp5gKsBg0k8g0U+6kMRp9FBlrmWbezdOnftPnji5grtQ/S6VurMO
+      gKJSSERChEwmbJJErUESw6HfQ92CUiBbyJDJZ8jm01d/LmTI5NNk8xmycprUYB9hByhqFeUm
+      H1WWWja7d2DRWW/8IkXsd7nWvYkDYuw0NNinboulx6sK6TSDl98gUmEio85Pn6DzGTKFNAVl
+      +pnVVKjQawwYNAb0auOV/6/etupsGCIpDJ0DONdtQ7ttcV4GaakTK8G3TCGYGqY13MRguJOq
+      4TxlmTosDQ3XnaA1as2NS/4pG+QfWo1GrKzOGRGAmxTNRmibuEBXtB2XwcN65xb2VdxPweBH
+      U1UJJmNRX0+srM4tEYBZyOTTXI600D5xEZ1ayzpHIx9b+Z/RXrOVRamrgSU0BECYJP5iM8gr
+      eXpjHbSGL5CUE6y1b+DB2o9i0poXujWhiEQArqEoCkPJAVonmhhJDVEnrWav9z4cBveNnyws
+      SSIAQDgzTuvEBXpjnVSYKlnv3MK9vgdvbey6sKSUbABScoL2iYtcjrRg1lpY79zC7eX70Khu
+      YWuNsGSVVACUdJqezhO0WEaQFZkGxyY+VPdXGDTF3XIjLB0lEYB8IU/rRBPNw29SMyBzr3sn
+      0q49C92WsAjMGIBIJEJgcJB1Gzbc6OQSi1Y2n+FC6DTtkUs02DfykbWfRqMfmtxeLwi8SwD6
+      e9ppa+1nxYYNmJkcDdrdO8DKhvUkQ8NMpAvUL9LRoEk5wbmxN/HHu9ns2sEnVn4ajXryrcpi
+      e71wjRmnBINewWJ1T50+Wm+yYjfrySuL9+S40dwE50JvMpYOssW5i9vq9qFChXLNyMjF1K+o
+      u/B1ZwhAnlxOYTA4MvWAaHCQsWQOY2LxnRx3NDXMqdHjZPJpdpbdyb1VD854VrClNlpR1J3b
+      ujNUVEjF0hTyCUYn4lQ6rNgrqmmsuPJr+2I4Oa7CQLyPU6Mn0Gv07CrbS7lp4bsSlpYZAqBF
+      0WqpLC+n43ILlbfdNr9dvQtFUeiKtnF27E1cRg/3+B7AYXAtdFvCEjXjPGVFbQ2RZI71azbM
+      Zz8zyit5WsMXaA6dpsZaz4MrPoZF+94OChGEGQPQ5+8nGU3Q2tFC2QLOAbL5LM2h07RHLrLG
+      voGP1P8teo1hwfoRlpcZA2C36ejza9i1a9d89jMplSbbdI6TVVH6Mn42u7bz8Ws2ZQpCsVx3
+      ipJzOcxWByp9BP1CDAgbCjLaf4kyQxV7tn4GVQmdqEmYX9cPQDpOb/8oKjlJFjDNc1PUVVNd
+      uG9yj62Y+IU5dN0A5GUZBTXb9+yZ/4kfQK0WR1gJ8+K6X68WZxmbN20kOTGGMt8dCcI8mnH5
+      or+nnUtNraTmsxtBmGczBCDPSHCC9RvWIg4PEZazGQIg43G5GQ1Hp0bUKEqBcHgCgHgkRG9/
+      YH46FIQ5NMNapoFKXxnD59um1gHkTJpILI7T6SAQGMTmqVp0o0FFXVH3Zs24mSWRiGOWpKlZ
+      RKGQJzDgx2qz43K56fb34y1zLYrRoKKuqHurZqyYikUoqK7+2mCW2LPn7cMIJTwVi/NgGEG4
+      GdddB+g+c4pgNEPN+tViJVhY1q4bAF/DGlwuF/HBIQrXe4AgLBPXXQQyWh00NjqIjo6Sn+lB
+      grAMzLgjrKejhVNNF/D3Ds5nP4Iwr2YMQCadIZXIkEzH5rMfQZhXMwbAbpcIRyI0rFs3n/0I
+      wryaMQB5WabCWznzAwRhGbju9B0a7OS5X/+eZEFBP98dCcI8um4AXFWr+dIX/4FVXhfZ+e5I
+      EObRjFs4VRotm7eKKxMKy5tYxBdK2qwDkEsn6OzxAzDU30vr5e45a0oQ5susd/LqjBbMhggA
+      MhosRrUYDi3qLvm6sw5AJhljfHwcvVnCatQRSS+ek+OKuqLurZp1RYNZYvPmzVduSTiL3oog
+      zD+xEiyUNBEAoaSJAAglTQRAKGkiAEJJEwEQSpoIgFDSRACEkiYCIJQ0EQChpM0+AEqegYHJ
+      E+KKk+MKy8WsxwINDwxgVOUJJgpMiJPjirrLpO6sA6DXa/EPBPFaveLkuKLusqk764quiipc
+      FVVXbpnFyXGFZUGsBAslTQRAKGkiAEJJEwEQSpoIgFDSRACEkiYCIJQ0EQChpIkACCVt1gEI
+      jQxy/vQpolmF3s52zl9sncu+BGFezHooRDYrU+11k84pKBo9NrNy4ycJwiI36zmAt7qatMqI
+      VZXGV+FBcrjnsi9BmBcqRVGmvspjsZu/IF4ymcRsNhe1KYB8Po9GU/zLdIu6ou61pi0CSZJ0
+      S0Vu9XnvplCYPPmuqCvqzmXdRbsVaC7erKgr6r6jbjGK+Hs66OzpL0apKa2tc7OVqaeznYGh
+      YJGrKvR0tNFf9LoQHOpiYDhS9LqtF5sIReJFrRkeHaKjyNMBwMTYCKdOn6dQ5LrBof7iBECl
+      NaLXFHerkN1uL2q9t5nNFmy2Yi+yqTCZjOTzRf4T5dO0dXQxNhoubl1Ao9GQSCaLWjMcniAV
+      jZAralVweMopL3MVfXEll80Vp6ZBCxq9qRilpsQmxhkZmyhqTSgQCoXIZIp97UuZeCKD2WQs
+      blmNkX377qKupry4dSmg1eowGovbr7eyEp3JPPtt67OUT8evORqxeCxW6/StQLciFovNyUqw
+      IMyHRbsSLAjzQQRAKGkiAAJkxvj1r1/mQuvkpW9TsTBvnWue+nWw9zJH3ziF3+9fqA7njFgH
+      ECAV4HhLmlzoEu3nm3Cv2AQuDxW6PDqDga3rV3Lk2CkiE6PYbTaGEirKjTI6m52upgv85ee+
+      hMeyNL9Li3+mIWHp0UrkIpdZs2E7RqOE2VaGVpLQjHaRLl9JJiNjc7lYvaoGWdHgVbT4286z
+      prYel9GMijxLdWFCzAGEkrY0YysIRfKeA2AyFXcHmCDMp/e8CCQIS5lYBBJKmgiAUNJEAISS
+      tiwCkIiMcebMGZpbOwgEbnzppmAgMG3IbiwWg1yKSCIz43PCgQCpKz9HItPH51/vNW/l8NL2
+      9nYC/m4utXdx7YpZJBK54fuazesphRxt7V3v+pi3XycyOkDb5S7OnDlDa0fvtMfkYkGCsVsf
+      9BwLBrj26df2ruTTtHX0vOP+2UsRCEwfPp4KBwinrv/oZbEjzGL3AH1sXr+Ggy++QHObk00r
+      vfT2D7F26x0kAh30h5O4rVpGQ2mcFj1Gu4Xzl1oxmCQuNjfxH/btYrxgo+n0ZawuD9nICLEU
+      rF7pJTiewEaOkcAgZZIHLVkunj9FBhN333UnPR2t9HW2U71yLb19fTjsDpovnGdDw3pqqz20
+      BzN4jAUmxkbA6MCiyTIalSmz60kmYzh8m6ixRMno3Iz629i6aQ1vnb2EVZ0intfjsBqIx+Mk
+      IxPUrl2Jv3eU1atqADh78gQmdxVt515ny+1309n8FqvWrGdobBxvZQX93QM0NDbQ0dTKqs2N
+      xGOTE8fwQA9t7T2sqqukazSB2+4gPTHEwFicv/D56OgbZufOnZw5c4b1a+o4/eZx0hipdpsZ
+      7G7BtGIXbWMB3OVeNq6tB8Df2UIgnMNpVTM+GqKqqozO4ST5xARWhxttPk4qJVPlsaHXGDjX
+      2o7TYaf5QhP79uymZ3CYCt8K4pFxoJ4jr/6etVtuJxb0k8bI3t07uXj+FIrBCakQoZiM22Ui
+      nYzhKF/FYF8XazZWMzQEsdjkwUlaJYe/4wKe9fdyKdiNt3olHlWctEWirT24POYA1/J4q/HY
+      LXR29WA0GUjFEySicbbu2klvdw86cqRkiE6EyaFhaHSchoYGPBYNQX8H7tU7yKfj6EwSPpeE
+      xeEgEw8RTanYsnMX6XiIeDyO0erEa9KRBIxWB7ftauD1V0+Q0+nR6I00NDSweZ2XQ29cxqKE
+      SSTj9HQPI8sy3d09aGSZcLbAzts3EwlOEB4Zx1XhAcBq96CSI4RCcfz+PuLxySO36mrLePmF
+      V/FUXx0bb7PZGBsbo3ZlAytrfdjcXpKhICq9ATkPkkXH+HgMm83A+HgIFaDA5HERYT99Q0nW
+      btlJNjmEonFS65s89kClUl3zqeZRNGZMGoXhiQTbN69nsNvPxt27SUbGph41Ek6we9cWovE0
+      t+9YRUdrN/UbduJ2OylkE2j0ZhrrHAQmcox0d5BU6UFroKGhgfT4MDmdHjl3dS7sq11Jw8qq
+      qdfOA6kcbF6/mnRexSqXjt7I5Gc4dPEs7tU78JU5AYjH48TjcULRJFs3NtDd0TH5mWTTOHyV
+      vH7oDSwWBc1jjz322BxMhwvi7T3SkiRRU1nOaDhBVU01Rr0OyW7DotOQktVUV3uxmHSMh+N4
+      vZXolAxqox1bZT3R3mbsFdW47BKSJKEoeeLJLNXV1UgOG9or9bsvt2Aqq2ZFhYdcKkZ79yj3
+      3L+X8cAQHm8lSiaGRqrCqMnisRpwr9iIWZtBb7FT4/WQRUt1ZQU2SQJ0lFfa6O4ZwWYo0Ns3
+      yPrGbUTGR7G7y6iqrECSJOzuCkaCw1TaTVxqbWdoNIxOlUdnkqhwmBiNZnA77dTXryAQGKHc
+      7SIaT+Bxu0jEEjg95STjUap8PuLRCLJKS3VtHXa7hF6tI5cKkVUZqKqsYDgQoNznQwVIkp34
+      RBBFb6XKZaWzf5SN27bSfeEsFV4fXV2dDA0NUVFeRltHHzWVLi51jbB1SwNGk4RRO/mZDfm7
+      iantNK7y4amtJz4yOQdRy0kclSuIj4/j8VaSiE7g8/nQq2T8o3GMqgyK3kplmZtCJkH/SBin
+      RctIRkNDdTmSJKGTvMQCbSh6C1azRDIyQl5rwueR6BkKsWX7NsLBEcq9PmySHVnJUe0pwgEx
+      pWouhoAMDg5SVTXzkU+JyBgZtQWXdGs7H5VCjqGRML7KGx9hJqcjjCc0VLitt/Ra1zObz0zJ
+      pxkajePzeor2uu9GBEAoactuHUAQboYIgFDSRACEkiYCIJQ0EQChpIkACCVtTgOQz+fnsvyC
+      kmV5oVuYU8v5/V373sQcQChpIgBCSRMBEErashgOvRA6//BLquXQQrcxZ5RCAdUcXZRioakM
+      BjS1PkAE4JYlRgbJZ4cWuo05oyjKnwyJXj7UFjO4Jq83tjwjLgizdFMBkJMRLrZ1kJvhQigT
+      E8W+oIUgzK2bWgTKJ2OkZBVdrWcZT2pw6GVyCrhd5Zy/dJmN61fR13GJvLmc7RvX0NvbSzqd
+      nqveF1QikQDdQnchvFc3FQC1zsjahmoiA52YHVbMBi0gEx6dwFfmRmc0YrW7MDtcANTV1c3J
+      tV0XgzNnXoFsdKHbEN6jmwqAzu7BDtjrV0+73+PxXr3h9SIIS4VYCRZKmgiAUNLm9JjgfD6/
+      bNcBZFlGq12+u1GW8/u79r2JOYBQ0kQAhJImAiCUNBEAoaSJAAgl7f8DOVABJq/Bk+wAAAAA
+      SUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='The distribution of (Fruit_veggies and Daily_Steps) to (BMI_range) as a measure of healthy body.' width='192'>
+      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
+      SUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='The distribution of (Sleep_hours and BMI_range) to (Todo_complete) as a measure of self-sufficient in productivity.' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='119' name='The relationship between (Daily_stress) and (Todo_complete) to conclude whether an orderly and productive life would impose less stress' width='192'>
+      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
+      2j9fct4gqH67GgAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
