@@ -48,6 +48,11 @@ These graphs show the differences in relationships based on one’s demographic 
 
 <br/>
 
+You can find the full analysis [here](analysis/analysis1.ipynb)
+
+
+<br/>
+
 ## Research Question 2
 ### "Are there any lifestyle factors that are particularly relevant for certain demographic groups, as noted by the correlation of factors within their group and work-life balance?"
 
@@ -70,6 +75,10 @@ The following heatmap visualizes the correlations for the age groups. Based on t
 
 <br/>
 
+You can find the full analysis [here](analysis/analysis2.ipynb)
+
+<br/>
+
 ## Research Question 3
 ### "Is being self-sufficient the main core of self-care in leading a thriving life?"
 
@@ -89,6 +98,10 @@ After observing the relationship between physical health factors, the integratio
 <br/>
 <img src = "images/analysis3_3.png">
 The relationship between (DAILY_STRESS) and (TODO_COMPLETE) is observed to conclude whether an orderly and productive life would impose less stress. The boxplot graph shows that male retain lower daily stress (1 and 2) at bigger range of completed task (from 4 to 8) than female (range 5 to 8). At intermediate daily stress (3 and 4), both genders have similar range of completed task but male has lower range (from 3 to 7) than female (from 4 to 8). At the lowest daily stress, female has bigger range of completed task than male, while at the highest stress level, male has bigger range. Therefore, having more completed task result in lower levels of daily stress in both males and females. It shows that having an orderly and productive life do impose less stress in daily life. 
+
+<br/>
+
+You can find the full analysis [here](analysis/analysis3.ipynb)
 
 <br/>
 
