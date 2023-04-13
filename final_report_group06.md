@@ -43,8 +43,16 @@ These graphs show the differences in relationships based on one’s demographic 
 <br/>
 
 ## Research Question 2
+### 
 
+<br/>
 This section delves further into the demographic factors influencing differences in work-life balance scores. More specifically, the aim of this analysis is to determine the degree to which age and gender contribute to the understanding of which lifestyle factors are most strongly associated with work-life balance scores.
+
+To answer this question, I assessed the distribution of work-life balance scores across gender and age groups, respectively. Based on the findings, the overall shape and distribution of work-life balance scores are relatively similar between the two demographic groups, thus enabling a more robust comparison of correlations within demographic cohorts.
+
+After calculating correlation matrices for each demographic group, correlation heatmaps were plotted for the five lifestyle factors that correlate the highest with work-life balance scores. In general, a consistent pattern emerged which factor persists in the top five across demographic groups: achievement. The following represents the heatmap for gender. For the male group, achievement was the highest correlated factor (r = .60), followed by supporting others and completing tasks on their to-do list (r = .56). By contrast, providing support to others was slightly more strongly correlated with work-life balance for females (r = .53), with achievement closely trailing behind (r = .52).
+
+The following heatmap visualizes the correlations for the age groups. Based on the analysis, achievement remains to be the highest correlated factor for the age groups of those under 20, as well as those aged 21 to 35 and 36 to 50. However, for those over 50, similar emphasis was put on supporting others and achievement (r = .55), with the added emergence of having a clear life vision within the top five correlated factors toward work-life balance scores. Notably, individuals under 20 differed from all other age groups in one factor ‘flow’ as one of the top factors, while all other age groups had ‘time for passion’ as one of their top correlated factors. Despite these small variations, the overall consistency in the ranking of lifestyle factor highlights the importance of these factors in contributing to work-life balance across different demographic groups. Further analysis would be needed to consider whether the small differences in correlation to be significant.
 
 ## Research Question 3
 
