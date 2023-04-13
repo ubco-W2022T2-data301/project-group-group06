@@ -8,7 +8,9 @@ Our project aims to explore factors nested within five dimensions that contribut
 ## Exploratory Data Analysis
 - Most of the columns in this dataset are numeric variables, and there is no missing variable.
 - However, there is one incorrectly reported value in the daily stress level column (‘1/1/00’). It needs to be dropped to prevent errors in analysis.
-<>
+
+<img src = "images/eda_1.png">
+
 - By plotting a histogram of all factors, we observe work-life balance scores and and sleep hours follow a normal distribution, while some factors are skewed such that they have a distinctively high frequency of values at the higher end of the histogram. These include places visited, supporting others, social network, and personal awards among others
 <>
 - As for the demographic variables, we have more females than males in our dataset. Among all the age groups, individuals less than 20 are of the least in the dataset.
